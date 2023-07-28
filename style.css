@@ -1,0 +1,30 @@
+
+.container{
+    background:burlywood ;
+    background-image: url(study.jpg);
+    padding: 15px 9%;
+    padding-bottom: 100px;
+}
+.container .heading{
+    text-align: center;
+    padding-bottom: 15px;
+    color: #fff;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    font-size: 50px;
+}
+.container .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+    gap: 15px;
+}
+.container .box-container .box{
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(119, 117, 115);
+    text-align: center;
+    padding: 30px 20px;
+}
+.box img{
+    width: 100%;
+}
